@@ -7,7 +7,9 @@ class tamgiac {
         int a, b, c; 
     public :
         tamgiac() {
-            a = 0, b = 0, c= 0;
+            a = 0;
+            b = 0;
+            c = 0;
         }
         void nhap () {
             cout << "Nhap vao canh cua a ";
