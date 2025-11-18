@@ -1,0 +1,1 @@
+Sắp xếp nổi bọt là 1 thuật toán cơ bản. chúng ta sẽ thao tác dữ liệu cần sắp xếp "nổi bọt" lần lượt theo thứ tự mà chúng ta mong muốn( từ trái sang phải, từ dưới lên cao, từ trên xuống dưới)
