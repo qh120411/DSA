@@ -1,1 +1,12 @@
 Sắp xếp nổi bọt là 1 thuật toán cơ bản. chúng ta sẽ thao tác dữ liệu cần sắp xếp "nổi bọt" lần lượt theo thứ tự mà chúng ta mong muốn( từ trái sang phải, từ dưới lên cao, từ trên xuống dưới)
+
+Ưu điểm:
+- Dễ cho người mới bắt đầu
+- Dễ nhớ, code ngắn gọn
+
+Nhược điểm: 
+- Hiệu suất chậm trong các thuật toán sắp xếp
+- Không hiệu quả với những dữ liệu lớn
+
+Thời gian tính và độ phức tạp
+Với mỗi i ta cần n-i phép so sánh ta duoc độ phức tạp thuật toán theo phép tính [n*(n-1)]/2 ( phep tinh voi bai trong file bbs.cpp)
