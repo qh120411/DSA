@@ -1,0 +1,8 @@
+Sắp xếp chèn là một thuật toán sắp xếp bắt chước cách sắp xếp quân bài của những người chơi bài. Muốn sắp một bộ bài theo trật tự người chơi bài rút lần lợt từ quân thứ 2, so với các quân đứng trước nó để chèn vào vị trí thích hợp.
+
+Một số ưu điểm :
+- Thao tác thực hiện đơn giản, dễ hiểu
+- Thể hiện sự hiệu quả cao với các số liệu nhỏ
+- Rất phù hợp đối với các số liệu đã được sắp xếp theo thứ tự sẵn
+- Tính ổn định, không làm thay đổi nhiều thứ tự các nguyên tố gốc
+- Cách sắp xếp có tính phương pháp cao
