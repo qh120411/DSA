@@ -1,0 +1,7 @@
+Stack là một cấu trúc dữ liệu hoạt động theo nguyên tắc Last In First Out. Hiểu đơn giản thì phần tử sẽ thêm vào cuối stack và khi lấy ra ta cũng sẽ lấy phần tử cuối stack.
+
+Một stack sẽ hỗ trợ thao tác cơ bản sau: 
+- Thêm phần tử vào cuối stack.
+- Loại bỏ phần tử cuối ra khỏi stack.
+- Lấy giá trị cuối cùng trong stack.
+- Lấy kích thước stack. 
