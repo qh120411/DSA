@@ -1,0 +1,14 @@
+Merge Sort sử dụng ý tưởng Divide and Conquer( Chia để trị) là việc thực hiện chia một sự việc thành nhiều việc với quy mô nhỏ hơn nhưng vẫn giữ nguyên tính chất và mục đích ban đầu rồi thực hiện các thao tác.
+
+Nguyên lý bao gồm 3 bước chính: 
+- Thực hiện chia dãy
+- Sắp xếp các dãy con
+- Gộp các dãy còn lại
+
+Thực hiện: Đối với thuật toán này, chúng ta sẽ thực hiện chia đôi liên tục dãy lớn thành các dãy con, cho đến khi ta thu được các dãy chỉ bao gồm một phần tử. Sau đó sắp xếp lại các phần tử bắt đầu từ những dãy con nhỏ nhất.
+Cuối cùng thực hiện thao tác gộp lần lượt ngược lại các dãy con để trở về dãy với số phần tử như ban đầu đã được sắp xếp
+
+Độ phức tạp: 
+- Trong giai đoạn tách thành dãy con, chúng ta chỉ mất thao tác tìm được vị trí trung gian của dãy để chia làm 2, nên độ phức tạp là O(1)
+- Giai đoạn tiếp theo sắp xếp từng cặp dãy con, sau đó thực hiện gộp lien tục các dãy con còn lại với nhau, ta thực hiện với n phần tử.
+-> Tổng hợp tất cả các yếu tố trên ta được thời gian là O(n*log(n))
