@@ -1,0 +1,16 @@
+Cây nhị phân là 1 cấu trúc dữ liệu đặc biệt được sử dụng cho mục đích lưu trữ dữ liệu.
+Một số cây nhị phan có một điều đặc biệt là mỗi nút có thể có tôi đa hai nút con. Một cây nhị phân tận dụng lợi thế của 2 kiểu cấu trúc là :
+- Linked list
+- Sắp xếp
+
+Khái niệm cơ bản của cây
+- Đường: là một dãy nút cùng với các cạnh của Cây
+- Nút gốc: Là nút trên cùng
+- Nút cha: Bất kỳ nút nào chỉ có 1 cạnh hướng lên nút gốc
+- Nút con: nút ở dưới 1 nút đã cho đc kết nối bởi cạnh dưới của nó là nút con của nút đó
+- Nút là: nút k có bất kì nút con nào 
+- cây con: cây con biểu diễn các con của 1 nút
+- truy cập: kiểm tra giá trị của 1 nút khi điều khiển là đang trên 1 nút đó
+- duyệt: duyệt các nút theo thứ tự nào đó
+- bậc: bậc của 1 nút biểu diễn số con của một nút. Nếu nút gốc có bậc là 0, thì nút con tiếp theo sẽ có bậc là 1 và nút cháu của nó sẽ có bậc là 2
+- Khóa(key): Biểu diễn một giá trị của nút dựa trên những gì mà một thao tác tìm kiếm thực hiện trên nút.
