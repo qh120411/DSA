@@ -6,3 +6,7 @@ Một số ưu điểm :
 - Rất phù hợp đối với các số liệu đã được sắp xếp theo thứ tự sẵn
 - Tính ổn định, không làm thay đổi nhiều thứ tự các nguyên tố gốc
 - Cách sắp xếp có tính phương pháp cao
+
+Cách hiểu của qhuy về thuật toán: Đầu tiên sẽ khai báo value và index của 1 phần tử bất kì
+tạo vòng lặp miễn điều kiện là index > 0 và value-1 > value thì swap với nhau rồi index --
+thoát khỏi vòng lặp while thì cập nhật lại value
