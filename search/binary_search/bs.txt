@@ -1,0 +1,13 @@
+Binary search là tìm kiếm nhị phân với thời gian là O(log(n))
+Giải thuật dựa trên quy tắc chia để trị
+
+theo cách hiểu của qhuy
+ban đầu cho l = 0, r = n-1
+nếu a[l] == val thì return vị trí là l
+khi vòng lặp l <= r
+mid = (l+r)/2
+nếu a[mid] == val thì return mid
+nếu a[mid] > val thì r = mid-1
+nếu a[mid] < val thì l = mid+1
+
+nếu k xđ đc thì return -1
