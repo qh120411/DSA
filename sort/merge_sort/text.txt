@@ -12,3 +12,28 @@ Cuối cùng thực hiện thao tác gộp lần lượt ngược lại các dã
 - Trong giai đoạn tách thành dãy con, chúng ta chỉ mất thao tác tìm được vị trí trung gian của dãy để chia làm 2, nên độ phức tạp là O(1)
 - Giai đoạn tiếp theo sắp xếp từng cặp dãy con, sau đó thực hiện gộp lien tục các dãy con còn lại với nhau, ta thực hiện với n phần tử.
 -> Tổng hợp tất cả các yếu tố trên ta được thời gian là O(n*log(n))
+
+Cách hiểu của qhuy Là:
+ban đầu chia mảng làm đôi rồi chia nhỏ ra rồi so sánh xem th nào nhỏ hơn thì xếp trước
+
+1 hàm để sort Merge
+ban đầu sẽ chia đôi ra bằng cách lấy m = l + (l-r) / 2
+gọi mergesort đê quy từ l - > mid
+gọi mergesort đệ quy từ mid+1 -> right
+sau đó sẽ merge lại
+
+1 hàm merge là 
+ban đầu sẽ tính size của bên left = m-l+1;
+còn right sẽ là = r- m ( ý là sẽ lấy từ m+1 á)
+
+thực hiện copy các chỉ số vào 2 mảng của left và right
+tiếp đến dùng thuật toán so sánh
+gọi biến k bắt đầu từ left, i = 0 , j = 0 
+bắt đầu so sánh nếu khi i < nửa trái và j < nửa phải
+nếu số số L[i] mà bé hơn R[j] thì a[k] = L[i] rồi i sẽ tăng 1
+ngược lại thì a[k] = R[j] thì j sẽ tăng 1
+hết if thì k tăng 1 đơn vị
+
+rồi cuối cùng sẽ tìm các phần tử còn lại để thêm vào bởi vì các phần tử trc đã thêm vào r 
+vòng lặp với i < n1 thì a[k] = L[i] lúc đó i và k tăng 1 đơn vị
+tương tự với j < n2 thì a[k] = R[j] lúc đó j và k tăng 1 đơn vị
