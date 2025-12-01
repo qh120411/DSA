@@ -1,0 +1,8 @@
+Là một giải thuật đơn giản .
+Giải thuật sắp xếp này dựa trên việc so sánh in-place, trong đó danh sách đc chia làm 2 phần, phần được sắp xếp ( sorted - list ) ở bên trái và phần chưa được sắp xếp (unsorted list) ở bên phải.
+Ban đầu, phần được sắp xếp là trống và phần chưa được sắp xếp là toàn bộ danh sách ban đầu.
+
+Theo cách hiểu của qhuy thì
+Bước đầu tìm chọn chỉ số min
+xong so sánh lần lượt a[min] và các chỉ số khác nếu chỉ số a[j] khác mà nhỏ hơn thì nó là min
+khi xong vòng đó thì so sánh lại nếu min mà khác chỉ số ban đầu thì ta chỉ việc swap cái chỉ số của a[i] và a[min]
