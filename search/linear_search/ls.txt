@@ -1,0 +1,5 @@
+Là một giải thuật căn bản
+chỉ cần chạy từ 0 -> n-1 và lấy phần tử cần tìm so sánh với các phần tử trong mảng
+nếu tìm được thì sẽ trả về giá trị
+
+thời gian hết O(n)
