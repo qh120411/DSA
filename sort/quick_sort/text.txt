@@ -1,0 +1,19 @@
+Giải thuật sắp xếp nhanh là một giải thuật hiệu quả cao dự trên việc chia mảng dữ liệu thành các mảng nhỏ hơn. Giải thuật sắp xếp nhanh chia mảng thành 2 phần bằng nhau.
+Bằng cách so sánh từng phần tử của mảng với một phần tử được gọi là phần tử chốt
+
+Với trường hợp xấu nhất là mất time là O(nlogn)
+
+Dưới đây là cách chọn
+- chọn phần tử đứng đầu hoặc cuối làm phần tử chốt
+- chọn phần tử đứng giữa là ds làm phần tử chốtchojhn phần tử trung vị trong ba phần tử đúng đàu , đứng giũa và đứng cuối làm chốt 
+- Chọn phần tử ngẫu nhiên làm phần tử chốt. Tuy nhiên cách này dễ dẫn vào khả năng trường hợp đb
+
+cách hiểu của qhuy :
+ban đầu sẽ chọn mốc là phần tử giữa p = a[(l+r)/2]
+i gán với left còn j gán với right
+chạy vòng lặp với đk i phải <= j
+nếu a[i] < p thì giữ nguyên còn i tăng 1 đơn vị, còn nếu a[j] > p thì giữ nguyên, j trừ 1 đơn vị
+khi i<=j thì ta sẽ swap và i tăng 1 đvi, j trừ 1 dvi 
+
+thoat vòng lặp nếu i < right thì đệ quy 1 lần qs 
+                nếu l < j thì đệ quy 1 lần qs
